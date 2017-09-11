@@ -1,0 +1,1345 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Authentic\n"
+"POT-Creation-Date: 2016-08-13 14:35+0200\n"
+"PO-Revision-Date: 2016-08-13 15:15+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: .sass-cache\n"
+"X-Poedit-SearchPathExcluded-3: .git\n"
+"X-Poedit-SearchPathExcluded-4: assets\n"
+"X-Poedit-SearchPathExcluded-5: inc/classes\n"
+"X-Poedit-SearchPathExcluded-6: inc/kirki\n"
+
+#: 404.php:11
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Ci dispiace, ma la pagina che stavi cercando non esiste."
+
+#: category.php:41 home.php:145 index.php:15 search.php:15
+msgid "Sorry, no results were found."
+msgstr "Ci dispiace, ma non abbiamo trovato nessun risultato."
+
+#: comments.php:17 lib/template-tags.php:485
+msgid "One comment"
+msgstr "Un commento"
+
+#: comments.php:21
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s commento"
+msgstr[1] "%s commenti"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Commenti disabilitati"
+
+#: footer.php:7 footer.php:51 header.php:81 inc/widgets/subscribe.php:23
+#: inc/widgets/subscribe.php:52 lib/theme-mods.php:1745 lib/theme-mods.php:1756
+#: lib/theme-mods.php:1811
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+#: footer.php:8 lib/theme-mods.php:1765
+msgid "Subscribe now to our newsletter"
+msgstr "Iscriviti alla nostra newsletter"
+
+#: footer.php:49 inc/widgets/subscribe.php:49
+msgid "Enter your Email here"
+msgstr "Inserisci il tuo indirizzo e-mail"
+
+#: footer.php:135
+msgid "Input your search keywords and press Enter."
+msgstr "Inserisci la chiave di ricerca e premi invio."
+
+#: home.php:105
+msgid "Trending"
+msgstr "Trending"
+
+#: inc/widgets/about.php:12
+msgid "Display Image, Text and Social Accounts."
+msgstr "Mostra immagine, testo e account social."
+
+#: inc/widgets/about.php:14
+msgid "Authentic: About"
+msgstr "Authentic: Chi siamo"
+
+#: inc/widgets/about.php:23
+msgid "About us"
+msgstr "Chi siamo"
+
+#: inc/widgets/about.php:92 inc/widgets/facebook.php:79
+#: inc/widgets/posts.php:189 inc/widgets/social.php:56
+#: inc/widgets/subscribe.php:70 inc/widgets/twitter.php:223
+msgid "Title:"
+msgstr "Titolo:"
+
+#: inc/widgets/about.php:111
+msgid "About Widget"
+msgstr "Riguardo ai Widget"
+
+#: inc/widgets/about.php:115
+msgid "Subtitle"
+msgstr "Sottotitolo"
+
+#: inc/widgets/about.php:136 lib/custom-fields.php:425
+msgid "Image"
+msgstr "Immagine"
+
+#: inc/widgets/about.php:160
+msgid "Text"
+msgstr "Testo"
+
+#: inc/widgets/about.php:178
+msgid "Button URL"
+msgstr "URL Bottone"
+
+#: inc/widgets/about.php:194 lib/options.php:33
+msgid "Button Text"
+msgstr "Testo Bottone"
+
+#: inc/widgets/about.php:215 lib/options.php:14
+msgid "Social Accounts"
+msgstr "Account Social"
+
+#: inc/widgets/about.php:226
+msgid "Display list of social accounts"
+msgstr "Mostra lista di account social"
+
+#: inc/widgets/facebook.php:12
+msgid "Display Facebook Page Widget."
+msgstr "Mostra il Widget di Facebook"
+
+#: inc/widgets/facebook.php:14
+msgid "Authentic: Facebook"
+msgstr "Authentic: Facebook"
+
+#: inc/widgets/facebook.php:23 lib/dashboard.php:47
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/widgets/facebook.php:99
+msgid "Facebook Widget"
+msgstr "Widget Facebook"
+
+#: inc/widgets/facebook.php:103
+msgid "Facebook Page URL"
+msgstr "URL pagina Facebook"
+
+#: inc/widgets/facebook.php:119
+msgid "Display Options"
+msgstr "Mostra le opzioni"
+
+#: inc/widgets/facebook.php:131
+msgid "Hide Cover"
+msgstr "Nascondi la cover"
+
+#: inc/widgets/facebook.php:132
+msgid "Show Facepile"
+msgstr "Mostra Facepile"
+
+#: inc/widgets/facebook.php:133
+msgid "Show Posts"
+msgstr "Mostra i post"
+
+#: inc/widgets/facebook.php:134
+msgid "Small Header"
+msgstr "Header piccolo"
+
+#: inc/widgets/posts.php:12
+msgid "Display a list of your posts."
+msgstr "Mostra una lista dei tuoi post."
+
+#: inc/widgets/posts.php:14
+msgid "Authentic: Posts"
+msgstr "Authentic: Post"
+
+#: inc/widgets/posts.php:208 lib/custom-fields.php:204
+msgid "Posts Widget"
+msgstr "Widget Post"
+
+#: inc/widgets/posts.php:212 lib/custom-fields.php:604 lib/gallery.php:200
+#: lib/theme-mods.php:744
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/widgets/posts.php:224 inc/widgets/posts.php:229
+#: lib/custom-fields.php:463 lib/theme-mods.php:1194
+msgid "List"
+msgstr "Lista"
+
+#: inc/widgets/posts.php:225
+msgid "Numbered"
+msgstr "Numerato"
+
+#: inc/widgets/posts.php:226 lib/custom-fields.php:252 lib/gallery.php:195
+msgid "Slider"
+msgstr "Slide"
+
+#: inc/widgets/posts.php:241
+msgid "Number of Posts"
+msgstr "Numero di Post"
+
+#: inc/widgets/posts.php:264
+msgid "Order by"
+msgstr "Ordina per "
+
+#: inc/widgets/posts.php:276 inc/widgets/posts.php:282
+#: inc/widgets/posts.php:377 lib/theme-mods.php:984
+msgid "Date"
+msgstr "Data"
+
+#: inc/widgets/posts.php:277 inc/widgets/posts.php:380
+msgid "Views"
+msgstr "Visualizzazioni"
+
+#: inc/widgets/posts.php:278
+msgid "Comments"
+msgstr "Commenti"
+
+#: inc/widgets/posts.php:279
+msgid "Random"
+msgstr "Random"
+
+#: inc/widgets/posts.php:294
+msgid "Order"
+msgstr "Ordine"
+
+#: inc/widgets/posts.php:306 inc/widgets/posts.php:310
+msgid "Descending"
+msgstr "Discendente"
+
+#: inc/widgets/posts.php:307
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: inc/widgets/posts.php:322
+msgid "Time Frame"
+msgstr "Lasso di tempo"
+
+#: inc/widgets/posts.php:343 lib/theme-mods.php:1002
+msgid "Category"
+msgstr "Categoria"
+
+#: inc/widgets/posts.php:365 lib/theme-mods.php:655 lib/theme-mods.php:976
+msgid "Post Meta"
+msgstr "Post Meta"
+
+#: inc/widgets/posts.php:378 lib/theme-mods.php:1029
+msgid "Author"
+msgstr "Autore"
+
+#: inc/widgets/posts.php:379 lib/theme-mods.php:1011
+msgid "Reading Time"
+msgstr "Tempo di lettura"
+
+#: inc/widgets/posts.php:381
+msgid "Comments Count"
+msgstr "Contatore commenti"
+
+#: inc/widgets/posts.php:390
+msgid "Compact Post Meta"
+msgstr "Compatta i Post Meta"
+
+#: inc/widgets/posts.php:401
+msgid "Display compact post meta"
+msgstr "Mostra post meta compatti"
+
+#: inc/widgets/posts.php:406
+msgid "Featured Posts"
+msgstr "Post in primo piano"
+
+#: inc/widgets/posts.php:417
+msgid "Include only featured posts"
+msgstr "Includi solo post in primo piano"
+
+#: inc/widgets/social.php:12
+msgid "Display links to social accounts ."
+msgstr "Mostra i link agli account social"
+
+#: inc/widgets/social.php:14
+msgid "Authentic: Social Accounts"
+msgstr "Authentic: Account Social"
+
+#: inc/widgets/social.php:23
+msgid "Follow Us"
+msgstr "Seguici"
+
+#: inc/widgets/social.php:58
+msgid "Social Accounts can be configured in Wordpress Customizer."
+msgstr ""
+"Gli account social possono essere configurati nella sezione \"Personalizza "
+"Aspetto\""
+
+#: inc/widgets/subscribe.php:12
+msgid "Display MailChimp Subscribe Form."
+msgstr "Mostra il form di iscrizione a MailChimp"
+
+#: inc/widgets/subscribe.php:14
+msgid "Authentic: Subscribe"
+msgstr "Authentic: Iscriviti"
+
+#: inc/widgets/subscribe.php:72
+msgid "MailChimp Embedded Form URL can be configured in Wordpress Customizer."
+msgstr ""
+"L'URL del form di MailChimp può essere configurato nella sezione "
+"\"Personalizza Aspetto\"."
+
+#: inc/widgets/subscribe.php:88
+msgid "Subscribe Widget"
+msgstr "Widget di iscrizione"
+
+#: inc/widgets/subscribe.php:92 lib/theme-mods.php:1763
+msgid "Subscribe Message"
+msgstr "Messaggio di iscrizione"
+
+#: inc/widgets/twitter.php:45
+msgid "right now"
+msgstr "in questo momento"
+
+#: inc/widgets/twitter.php:47
+msgid " seconds ago"
+msgstr " secondi fa"
+
+#: inc/widgets/twitter.php:49
+msgid "about 1 minute ago"
+msgstr "circa 1 minuto fa"
+
+#: inc/widgets/twitter.php:51
+msgid " minutes ago"
+msgstr " minuti fa"
+
+#: inc/widgets/twitter.php:53
+msgid "about 1 hour ago"
+msgstr "circa un'ora fa"
+
+#: inc/widgets/twitter.php:55
+msgid " hours ago"
+msgstr " ore fa"
+
+#: inc/widgets/twitter.php:57
+msgid "yesterday"
+msgstr "ieri"
+
+#: inc/widgets/twitter.php:59
+msgid " days ago"
+msgstr " giorni fa"
+
+#: inc/widgets/twitter.php:61
+msgid "over a year ago"
+msgstr "più di un anno fa"
+
+#: inc/widgets/twitter.php:71
+msgid "Display Twitter Feed Widget."
+msgstr "Mostra il social feed di Twitter"
+
+#: inc/widgets/twitter.php:73
+msgid "Authentic: Twitter"
+msgstr "Authentic: Twitter"
+
+#: inc/widgets/twitter.php:82 lib/dashboard.php:48
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/widgets/twitter.php:110
+msgid "Unable to load tweets. Please fill in all required fields."
+msgstr "Impossibile caricare i tweet. Compila tutti i campi richiesti."
+
+#: inc/widgets/twitter.php:130
+msgid ""
+"Unable to load tweets. Make sure CSCO: Twitter API plugin is installed and "
+"activated."
+msgstr ""
+"Impossibile caricare i tweet. Assicurati che \"CSCO: Twitter API plugin\" "
+"sia installato e attivo."
+
+#: inc/widgets/twitter.php:179
+msgid "Reply"
+msgstr "Rispondi"
+
+#: inc/widgets/twitter.php:185
+msgid "Retweet"
+msgstr "Retweet"
+
+#: inc/widgets/twitter.php:191
+msgid "Favorite"
+msgstr "Favorito"
+
+#: inc/widgets/twitter.php:206
+msgid "Follow"
+msgstr "Segui"
+
+#: inc/widgets/twitter.php:242
+msgid "Twitter Widget Settings"
+msgstr "Configurazione Widget di Twitter"
+
+#: inc/widgets/twitter.php:246
+msgid "Number of Tweets"
+msgstr "Numero di Tweet"
+
+#: inc/widgets/twitter.php:269
+msgid "Cache Time"
+msgstr "Durata Cache"
+
+#: inc/widgets/twitter.php:272
+msgid "Cache time in minutes."
+msgstr "Durata cache in minuti."
+
+#: inc/widgets/twitter.php:292
+msgid "Twitter API Access"
+msgstr "Accesso Twitter API"
+
+#: inc/widgets/twitter.php:303
+msgid ""
+"Please create an app at <a href=\"https://dev.twitter.com/apps/\" target="
+"\"_blank\">dev.twitter.com</a>, register access tokens and copy the "
+"credentials below."
+msgstr ""
+"Crea un'app su <a href=\"https://dev.twitter.com/apps/\" target=\"_blank"
+"\">dev.twitter.com</a>, registra un access token e copia le credenziali nei "
+"campi sottostanti."
+
+#: inc/widgets/twitter.php:309
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: inc/widgets/twitter.php:330
+msgid "Consumer Secret"
+msgstr "Consumer Secret"
+
+#: inc/widgets/twitter.php:351
+msgid "Access Token"
+msgstr "Access Token"
+
+#: inc/widgets/twitter.php:372
+msgid "Access Token Secret"
+msgstr "Access Token Secret"
+
+#: lib/custom-fields.php:13
+msgid "Gallery"
+msgstr "Galleria"
+
+#: lib/custom-fields.php:17
+msgid "Images"
+msgstr "Immagini"
+
+#: lib/custom-fields.php:69 lib/custom-fields.php:73
+msgid "Embed"
+msgstr "Embed"
+
+#: lib/custom-fields.php:128
+msgid "Media Options"
+msgstr "Opzioni Media"
+
+#: lib/custom-fields.php:132
+msgid "Media Location"
+msgstr "Locazione Media"
+
+#: lib/custom-fields.php:144 lib/theme-mods.php:553
+msgid "Post Content"
+msgstr "Contenuto Post"
+
+#: lib/custom-fields.php:145
+msgid "Post Header"
+msgstr "Header Post"
+
+#: lib/custom-fields.php:187
+msgid "Featured Post"
+msgstr "Post in primo piano"
+
+#: lib/custom-fields.php:191
+msgid "Featured Post Location"
+msgstr "Locazione Post in primo piano"
+
+#: lib/custom-fields.php:203
+msgid "Home Slider"
+msgstr "Home Slider"
+
+#: lib/custom-fields.php:205 lib/theme-mods.php:867
+msgid "Post Archives"
+msgstr "Archivio Post"
+
+#: lib/custom-fields.php:240
+msgid "Gallery Type"
+msgstr "Tipo Galleria"
+
+#: lib/custom-fields.php:253 lib/gallery.php:194
+msgid "Justified"
+msgstr "Giustificato"
+
+#: lib/custom-fields.php:295
+msgid "Featured Image Options"
+msgstr "Opzioni immagini in primo piano"
+
+#: lib/custom-fields.php:299
+msgid "Featured Image Type"
+msgstr "Tipo immagini in primo piano"
+
+#: lib/custom-fields.php:311
+msgid "None"
+msgstr "Nessuno"
+
+#: lib/custom-fields.php:312 lib/custom-fields.php:462
+#: lib/custom-fields.php:589 lib/theme-mods.php:1191
+msgid "Standard"
+msgstr "Standard"
+
+#: lib/custom-fields.php:313
+msgid "Wide"
+msgstr "Esteso"
+
+#: lib/custom-fields.php:314 lib/theme-mods.php:1062 lib/theme-mods.php:1188
+msgid "Large"
+msgstr "Largo"
+
+#: lib/custom-fields.php:358
+msgid "Layout Options"
+msgstr "Opzioni Layout"
+
+#: lib/custom-fields.php:362
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: lib/custom-fields.php:374 lib/custom-fields.php:461
+#: lib/custom-fields.php:492 lib/custom-fields.php:536
+#: lib/custom-fields.php:587 lib/custom-fields.php:616 lib/theme-mods.php:102
+#: lib/theme-mods.php:130 lib/theme-mods.php:179 lib/theme-mods.php:217
+#: lib/theme-mods.php:276 lib/theme-mods.php:314 lib/theme-mods.php:1576
+#: lib/theme-mods.php:1626 lib/theme-mods.php:1654
+msgid "Default"
+msgstr "Default"
+
+#: lib/custom-fields.php:375 lib/custom-fields.php:617
+msgid "Left Sidebar"
+msgstr "Sidebar a sinistra"
+
+#: lib/custom-fields.php:376 lib/custom-fields.php:618
+msgid "Right Sidebar"
+msgstr "Sidebar a destra"
+
+#: lib/custom-fields.php:377 lib/custom-fields.php:619
+msgid "Fullwidth"
+msgstr "Intera larghezza"
+
+#: lib/custom-fields.php:421
+msgid "Category Options"
+msgstr "Opzioni categoria"
+
+#: lib/custom-fields.php:449 lib/theme-mods.php:875
+msgid "Post Archive Layout"
+msgstr "Layout archivio post"
+
+#: lib/custom-fields.php:464 lib/gallery.php:193 lib/theme-mods.php:1193
+msgid "Grid"
+msgstr "Griglia"
+
+#: lib/custom-fields.php:465 lib/theme-mods.php:1195
+msgid "Masonry"
+msgstr "A cascata"
+
+#: lib/custom-fields.php:480 lib/theme-mods.php:927
+msgid "Show Post Summary"
+msgstr "Mostra il riepilogo del post"
+
+#: lib/custom-fields.php:493
+msgid "Show"
+msgstr "Mostra"
+
+#: lib/custom-fields.php:494
+msgid "Don't show"
+msgstr "Non mostrare"
+
+#: lib/custom-fields.php:509 lib/theme-mods.php:890
+msgid "Number of Columns"
+msgstr "Numero di colonne"
+
+#: lib/custom-fields.php:553
+msgid "First Post"
+msgstr "Primo post"
+
+#: lib/custom-fields.php:588
+msgid "Normal"
+msgstr "Normale"
+
+#: lib/dashboard.php:12
+msgid "Demo Import"
+msgstr "Importa contenuti demo"
+
+#: lib/dashboard.php:49 lib/theme-mods.php:1774 lib/theme-mods.php:1810
+msgid "Instagram"
+msgstr "Instagram"
+
+#: lib/dashboard.php:50
+msgid "YouTube"
+msgstr "YouTube"
+
+#: lib/dashboard.php:51
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: lib/dashboard.php:52
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: lib/dashboard.php:97 lib/theme-mods.php:604
+msgid "Drop Cap"
+msgstr "Capolettera"
+
+#: lib/dashboard.php:100
+msgid "Simple"
+msgstr "Semplice"
+
+#: lib/dashboard.php:106
+msgid "Bordered"
+msgstr "Con contorni"
+
+#: lib/dashboard.php:112
+msgid "Border Right"
+msgstr "Bordo a destra"
+
+#: lib/dashboard.php:118
+msgid "Background Dark"
+msgstr "Sfondo scuro"
+
+#: lib/dashboard.php:124
+msgid "Background Light"
+msgstr "Sfondo chiaro"
+
+#: lib/dashboard.php:132 lib/theme-mods.php:582
+msgid "Lead"
+msgstr "Guida"
+
+#: lib/dashboard.php:137
+msgid "Container"
+msgstr "Contenitore"
+
+#: lib/dashboard.php:140
+msgid "Borders"
+msgstr "Bordi"
+
+#: lib/dashboard.php:143
+msgid "Top"
+msgstr "Sopra"
+
+#: lib/dashboard.php:148
+msgid "Bottom"
+msgstr "Sotto"
+
+#: lib/dashboard.php:153 lib/dashboard.php:188
+msgid "Left"
+msgstr "Sinistra"
+
+#: lib/dashboard.php:158 lib/dashboard.php:193
+msgid "Right"
+msgstr "Destra"
+
+#: lib/dashboard.php:163
+msgid "All"
+msgstr "Tutti"
+
+#: lib/dashboard.php:170
+msgid "Background"
+msgstr "Sfondo"
+
+#: lib/dashboard.php:173
+msgid "Dark"
+msgstr "Scuro"
+
+#: lib/dashboard.php:178
+msgid "Light"
+msgstr "Chiaro"
+
+#: lib/dashboard.php:185
+msgid "Float"
+msgstr "Float"
+
+#: lib/gallery.php:171
+msgid "Large Thumbnail"
+msgstr "Anteprima Grande"
+
+#: lib/gallery.php:172
+msgid "Square Thumbnail"
+msgstr "Anteprima Quadrata"
+
+#: lib/gallery.php:173
+msgid "Horizontal Thumbnail"
+msgstr "Anteprima Orizzontale"
+
+#: lib/gallery.php:174
+msgid "Vertical Thumbnail"
+msgstr "Anteprima Verticale"
+
+#: lib/init.php:74
+msgid "Primary Menu"
+msgstr "Menu Principale"
+
+#: lib/init.php:75
+msgid "Secondary Menu"
+msgstr "Menu Secondario"
+
+#: lib/init.php:76
+msgid "Footer Menu"
+msgstr "Menu Footer"
+
+#: lib/init.php:90
+msgid "Default Sidebar"
+msgstr "Sidebar predefinita"
+
+#: lib/init.php:99
+#, php-format
+msgid "Footer Sidebar %d"
+msgstr "Sidebar footer %d"
+
+#: lib/init.php:147
+msgid "Creative Theme for Blogs & Magazines"
+msgstr "Tema per Blog & Magazine"
+
+#: lib/options.php:8
+msgid "Connect"
+msgstr "Connetti"
+
+#: lib/options.php:28
+msgid "Account URL"
+msgstr "URL Account"
+
+#: lib/options.php:46
+msgid "Include Facebook SDK"
+msgstr "Includi Facebook SDK"
+
+#: lib/options.php:47
+msgid "Required for Facebook Page Widget."
+msgstr "Richiesto per il widget \"Facebook Page\""
+
+#: lib/options.php:56
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: lib/options.php:71
+msgid "MailChimp General Form URL"
+msgstr "MailChimp General Form URL"
+
+#: lib/options.php:80
+msgid "MailChimp Embedded Form URL"
+msgstr "MailChimp Embedded Form URL"
+
+#: lib/template-tags.php:220
+msgid "Name"
+msgstr "Nome"
+
+#: lib/template-tags.php:226
+msgid "Email"
+msgstr "Email"
+
+#: lib/template-tags.php:232
+msgid "Website"
+msgstr "Sito web"
+
+#: lib/template-tags.php:250
+msgid "Your Comment"
+msgstr "Il tuo commento"
+
+#: lib/template-tags.php:286
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+#: lib/template-tags.php:286
+msgid "Edit"
+msgstr "Modifica"
+
+#: lib/template-tags.php:292
+msgid "Your comment is awaiting moderation."
+msgstr "Un commento in attesa di moderazione."
+
+#: lib/template-tags.php:338
+msgid "Posts <span>by</span> tag"
+msgstr "Post <span>per</span> tag"
+
+#: lib/template-tags.php:343
+msgid "Posts <span>by</span> author"
+msgstr "Post <span>per</span> autore"
+
+#: lib/template-tags.php:348
+msgid "Posts <span>by</span> year"
+msgstr "Post <span>per</span> anno"
+
+#: lib/template-tags.php:353
+msgid "Posts <span>by</span> month"
+msgstr "Post <span>per</span> mese"
+
+#: lib/template-tags.php:358
+msgid "Posts <span>by</span> day"
+msgstr "Post <span>per</span> giorno"
+
+#: lib/template-tags.php:367
+msgid "Search Results <span>for</span>"
+msgstr "RIsultati <span>per</span>"
+
+#: lib/template-tags.php:373
+msgid "Page not found"
+msgstr "Pagina non trovata"
+
+#: lib/template-tags.php:466
+msgid "by"
+msgstr "di"
+
+#: lib/template-tags.php:485
+msgid "No comments"
+msgstr "Nessun commento"
+
+#: lib/template-tags.php:485
+msgid "comments"
+msgstr "commenti"
+
+#: lib/template-tags.php:509
+msgid "minute read"
+msgstr "minuto di lettura"
+
+#: lib/template-tags.php:526
+msgid "views"
+msgstr "visualizzazioni"
+
+#: lib/template-tags.php:608
+msgid "Share"
+msgstr "Condividi"
+
+#: lib/template-tags.php:634
+msgid "Previous Article"
+msgstr "Articolo Precedente"
+
+#: lib/template-tags.php:657
+msgid "Next Article"
+msgstr "Articolo Successivo"
+
+#: lib/template-tags.php:704
+msgid "View Post"
+msgstr "Visualizza Post"
+
+#: lib/template-tags.php:723
+msgid "posts"
+msgstr "post"
+
+#: lib/template-tags.php:806
+msgid "You May also Like"
+msgstr "Ti potrebbe piacere anche"
+
+#: lib/theme-mods.php:51
+msgid "Typography"
+msgstr "Tipografia"
+
+#: lib/theme-mods.php:59 lib/theme-mods.php:753
+msgid "General"
+msgstr "Generale"
+
+#: lib/theme-mods.php:67
+msgid "Base Font"
+msgstr "Font di base"
+
+#: lib/theme-mods.php:90
+msgid "Links & Buttons"
+msgstr "Link & Bottoni"
+
+#: lib/theme-mods.php:98 lib/theme-mods.php:1572
+msgid "Link Color"
+msgstr "Colore Link"
+
+#: lib/theme-mods.php:103 lib/theme-mods.php:131 lib/theme-mods.php:180
+#: lib/theme-mods.php:218 lib/theme-mods.php:277 lib/theme-mods.php:315
+#: lib/theme-mods.php:1577 lib/theme-mods.php:1627 lib/theme-mods.php:1655
+msgid "Hover"
+msgstr "Hover"
+
+#: lib/theme-mods.php:126
+msgid "Headings Link Color"
+msgstr "Colore Link Intestazioni"
+
+#: lib/theme-mods.php:154
+msgid "Primary Button Font"
+msgstr "Font Bottone Principale"
+
+#: lib/theme-mods.php:175
+msgid "Primary Button Text Color"
+msgstr "Colore Testo Bottone Principale"
+
+#: lib/theme-mods.php:213
+msgid "Primary Button Background Color"
+msgstr "Colore Sfondo Bottone Principale"
+
+#: lib/theme-mods.php:251
+msgid "Secondary Button Font"
+msgstr "Font Bottone Secondario"
+
+#: lib/theme-mods.php:272
+msgid "Secondary Button Text Color"
+msgstr "Colore Testo Bottone Secondario"
+
+#: lib/theme-mods.php:310
+msgid "Secondary Button Background Color"
+msgstr "Colore Sfondo Bottone Secondario"
+
+#: lib/theme-mods.php:350
+msgid "Headings"
+msgstr "Intestazioni"
+
+#: lib/theme-mods.php:358
+msgid "Page Header"
+msgstr "Testata Pagina"
+
+#: lib/theme-mods.php:386
+msgid "Heading 1"
+msgstr "Intestazione 1"
+
+#: lib/theme-mods.php:413
+msgid "Heading 2"
+msgstr "Intestazione 2"
+
+#: lib/theme-mods.php:436
+msgid "Heading 3"
+msgstr "Intestazione 3"
+
+#: lib/theme-mods.php:459
+msgid "Heading 4"
+msgstr "Intestazione 4"
+
+#: lib/theme-mods.php:482
+msgid "Heading 5"
+msgstr "Intestazione 5"
+
+#: lib/theme-mods.php:505
+msgid "Heading 6"
+msgstr "Intestazione 6"
+
+#: lib/theme-mods.php:528
+msgid "Title Block"
+msgstr "Blocco Titolo"
+
+#: lib/theme-mods.php:561
+msgid "Paragraph"
+msgstr "Paragrafo"
+
+#: lib/theme-mods.php:623
+msgid "Blockquote"
+msgstr "Blocco Citazione"
+
+#: lib/theme-mods.php:647 lib/theme-mods.php:1480
+msgid "Miscellaneous"
+msgstr "Miscellanea"
+
+#: lib/theme-mods.php:678
+msgid "Page Excerpt"
+msgstr "Contenuto Pagina"
+
+#: lib/theme-mods.php:700
+msgid "Posts Widget Number"
+msgstr "Numero di Post Widget"
+
+#: lib/theme-mods.php:720
+msgid "Search Form"
+msgstr "Form di Ricerca"
+
+#: lib/theme-mods.php:761
+msgid "Site Layout"
+msgstr "Layout Sito"
+
+#: lib/theme-mods.php:775
+msgid "Home Page Width"
+msgstr "Larghezza Home Page"
+
+#: lib/theme-mods.php:790
+msgid "Archive Page Width"
+msgstr "Larghezza Pagina Archivio"
+
+#: lib/theme-mods.php:805
+msgid "Sidebar Post Width"
+msgstr "Larghezza Post Sidebar"
+
+#: lib/theme-mods.php:820
+msgid "Fullwidth Post Width"
+msgstr "Larghezza Post a pagina intera"
+
+#: lib/theme-mods.php:835
+msgid "Sidebar Page Width"
+msgstr "Larghezza Pagina Sidebar"
+
+#: lib/theme-mods.php:850
+msgid "Fullwidth Page Width"
+msgstr "Larghezza Pagina a pagina intera"
+
+#: lib/theme-mods.php:917
+msgid "First Standard Post"
+msgstr "Primo Post Standard"
+
+#: lib/theme-mods.php:918
+msgid "Valid for list, grid and masonry archive types only."
+msgstr "Valido per lista, griglia e cascata."
+
+#: lib/theme-mods.php:936
+msgid "Standard Post Summary"
+msgstr "Riepilogo Post Standard"
+
+#: lib/theme-mods.php:941
+msgid "Excerpt"
+msgstr "Estratto"
+
+#: lib/theme-mods.php:942
+msgid "Full"
+msgstr "Intero"
+
+#: lib/theme-mods.php:963
+msgid "Excerpt Length"
+msgstr "Lunghezza Estratto"
+
+#: lib/theme-mods.php:964
+msgid "Number of words in excerpt."
+msgstr "Numero di parole nell'estratto."
+
+#: lib/theme-mods.php:993
+msgid "Comments Number"
+msgstr "Numero Commenti"
+
+#: lib/theme-mods.php:1020
+msgid "Number of Views"
+msgstr "Numero di Visualizzazioni"
+
+#: lib/theme-mods.php:1040
+msgid "Home"
+msgstr "Home"
+
+#: lib/theme-mods.php:1047
+msgid "Show Featured Posts Slider"
+msgstr "Mostra lo slider con i post in primo piano."
+
+#: lib/theme-mods.php:1056
+msgid "Slider Type"
+msgstr "Tipo Slider"
+
+#: lib/theme-mods.php:1061
+msgid "Center"
+msgstr "Centro"
+
+#: lib/theme-mods.php:1063
+msgid "Boxed"
+msgstr "Contornato"
+
+#: lib/theme-mods.php:1064
+msgid "Multiple"
+msgstr "Multiplo"
+
+#: lib/theme-mods.php:1078
+msgid "Number of Visible Slides"
+msgstr "Numero di slide visibili"
+
+#: lib/theme-mods.php:1104
+msgid "Number of Slides"
+msgstr "Numero di slide"
+
+#: lib/theme-mods.php:1119
+msgid "Slider Width"
+msgstr "Larghezza Slider"
+
+#: lib/theme-mods.php:1120
+msgid ""
+"Recommended width: 1560px for a wide slider and 1100px for a narrow one."
+msgstr ""
+"Larghezza raccomandata: 1560px per uno slider largo e 1100px per uno slider "
+"stretto."
+
+#: lib/theme-mods.php:1159
+msgid "Slider Height"
+msgstr "Altezza Slider"
+
+#: lib/theme-mods.php:1160
+msgid "Recommended height: 600px."
+msgstr "Altezza raccomandata: 600px."
+
+#: lib/theme-mods.php:1182
+msgid "Slider Image Size"
+msgstr "Dimensioni immagini Slider"
+
+#: lib/theme-mods.php:1183
+msgid ""
+"For detailed image sizes please see \"Media\" section in theme documentation."
+msgstr ""
+"Per dimensioni più dettagliate, leggere la sezione \"Media\" nella "
+"documentazione del tema."
+
+#: lib/theme-mods.php:1189
+msgid "Medium"
+msgstr "Medio"
+
+#: lib/theme-mods.php:1190
+msgid "HD"
+msgstr "HD"
+
+#: lib/theme-mods.php:1192
+msgid "Square"
+msgstr "Quadrato"
+
+#: lib/theme-mods.php:1209 lib/theme-mods.php:1830
+msgid "Parallax"
+msgstr "Parallasse"
+
+#: lib/theme-mods.php:1210
+msgid ""
+"Please mind that global Parallax settings defined in Effects are applied."
+msgstr ""
+"Ricorda che le impostazioni del Parallasse definite nella sezione \"Effetti"
+"\" sono state applicate."
+
+#: lib/theme-mods.php:1226
+msgid "Featured Slider Heading"
+msgstr "Intestazione Slider in primo piano"
+
+#: lib/theme-mods.php:1256
+msgid "Show Trending Posts"
+msgstr "Mostra i post più letti"
+
+#: lib/theme-mods.php:1265
+msgid "Trending Posts Period"
+msgstr "Periodo post più letti"
+
+#: lib/theme-mods.php:1266
+msgid ""
+"Input period of trending posts in English, i.e. &laquo;2 months&raquo;, "
+"&laquo;14 days&raquo; or even &laquo;1 year&raquo;"
+msgstr ""
+"inserisci il periodo post più letti in inglese, i.e. &laquo;2 months&raquo;, "
+"&laquo;14 days&raquo; or even &laquo;1 year&raquo;"
+
+#: lib/theme-mods.php:1284
+msgid "Header"
+msgstr "Header"
+
+#: lib/theme-mods.php:1293 lib/theme-mods.php:1710
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/theme-mods.php:1301
+msgid "Dark Logo"
+msgstr "Logo scuro"
+
+#: lib/theme-mods.php:1310
+msgid "Light Logo"
+msgstr "Logo chiaro"
+
+#: lib/theme-mods.php:1319 lib/theme-mods.php:1719
+msgid "Logo Width"
+msgstr "Larghezza Logo"
+
+#: lib/theme-mods.php:1320 lib/theme-mods.php:1720
+msgid ""
+"Input logo width in pixels. Please note, that the size of the image must be "
+"2x to look sharp on Retina screens."
+msgstr ""
+"Inserisci la larghezza del logo in pixel. Attenzione che la larghezza "
+"dell'immagine dovrebbe essere doppia perché si veda bene negli schermi "
+"Retina."
+
+#: lib/theme-mods.php:1334
+msgid "Header Height"
+msgstr "Altezza Header"
+
+#: lib/theme-mods.php:1335
+msgid "Input height in pixels."
+msgstr "Inserisci l'altezza in pixel."
+
+#: lib/theme-mods.php:1351
+msgid "Navigation Bar"
+msgstr "Barra di Navigazione"
+
+#: lib/theme-mods.php:1359 lib/theme-mods.php:1434
+msgid "Main Links Font"
+msgstr "Font Link Principale"
+
+#: lib/theme-mods.php:1381 lib/theme-mods.php:1456
+msgid "Submenu Links Font"
+msgstr "Font Link Sottomenu"
+
+#: lib/theme-mods.php:1403
+msgid "Navbar Brand Font"
+msgstr "Font Brand Navigazione"
+
+#: lib/theme-mods.php:1426
+msgid "Top Bar"
+msgstr "Barra superiore"
+
+#: lib/theme-mods.php:1488
+msgid "Show Subscribe Button"
+msgstr "Mostra Bottone Iscriviti"
+
+#: lib/theme-mods.php:1489
+msgid ""
+"Requires URL of MailChimp general form to be specified in the Connect "
+"section."
+msgstr ""
+"Richiede di specificare l'URL per il general form di MailChimp nella sezione "
+"\"Connetti\"."
+
+#: lib/theme-mods.php:1498
+msgid "Show Search Button"
+msgstr "Mostra Bottone Cerca"
+
+#: lib/theme-mods.php:1509
+msgid "Footer"
+msgstr "Footer"
+
+#: lib/theme-mods.php:1518
+msgid "Colors"
+msgstr "Colori"
+
+#: lib/theme-mods.php:1526
+msgid "Background Color"
+msgstr "Colore di Sfondo"
+
+#: lib/theme-mods.php:1540
+msgid "Text Color"
+msgstr "Colore Testo"
+
+#: lib/theme-mods.php:1558
+msgid "Title Color"
+msgstr "Colore Titolo"
+
+#: lib/theme-mods.php:1600
+msgid "Border Color"
+msgstr "Colore Bordo"
+
+#: lib/theme-mods.php:1622
+msgid "Button Text Color"
+msgstr "Colore Testo Bottone"
+
+#: lib/theme-mods.php:1650
+msgid "Button Background Color"
+msgstr "Colore Sfondo Bottone"
+
+#: lib/theme-mods.php:1680
+msgid "Logo & Navbar"
+msgstr "Logo & Navigazione"
+
+#: lib/theme-mods.php:1688
+msgid "Navbar Links Font"
+msgstr "Font Link Navigazione"
+
+#: lib/theme-mods.php:1734
+msgid "Footer Text"
+msgstr "Testo Footer"
+
+#: lib/theme-mods.php:1746
+msgid ""
+"Please make sure that MailChimp Embedded Form URL is filled in the Connect "
+"section."
+msgstr ""
+"Assicurati che l'URL dell'Embedded Form di MailChimp sia stato inserito "
+"nella sezione \"Connetti\"."
+
+#: lib/theme-mods.php:1754
+msgid "Subscribe Title"
+msgstr "Titolo Iscriviti"
+
+#: lib/theme-mods.php:1782
+msgid "Instagram Username"
+msgstr "Username Instagram"
+
+#: lib/theme-mods.php:1793
+msgid "Arrangement"
+msgstr "Disposizione"
+
+#: lib/theme-mods.php:1801
+msgid "Content Arrangement"
+msgstr "Disposizione Contenuti"
+
+#: lib/theme-mods.php:1812
+msgid "Widgets"
+msgstr "Widget"
+
+#: lib/theme-mods.php:1813
+msgid "Logo &amp; Navbar"
+msgstr "Logo &amp; Navigazione"
+
+#: lib/theme-mods.php:1823
+msgid "Effects"
+msgstr "Effetti"
+
+#: lib/theme-mods.php:1839
+msgid "Posts Lazy Load"
+msgstr "Post Lazy Load"
+
+#: lib/theme-mods.php:1848
+msgid "Navbar Scroll"
+msgstr "Scroll Navigazione"
+
+#: lib/theme-mods.php:1857
+msgid "Sticky Sidebar"
+msgstr "Sidebar Fissa"
+
+#: lib/theme-mods.php:1868
+msgid "Custom CSS"
+msgstr "CSS Personalizzato"
+
+#: lib/theme-mods.php:1875
+msgid "Custom CSS Code"
+msgstr "Codice CSS Personalizzato"
+
+#: page.php:70 single.php:92
+msgid "Next page"
+msgstr "Pagina successiva"
+
+#: page.php:71 single.php:93
+msgid "Previous page"
+msgstr "Pagina precedente"
+
+#: searchform.php:2
+msgid "Search for:"
+msgstr "Cerca"
+
+#: searchform.php:4
+msgid "Enter Keyword"
+msgstr "Inserisci una parola chiave"
+
+#: searchform.php:6
+msgid "Search"
+msgstr "Cerca"
+
+#: templates/archive-grid.php:77 templates/archive-list.php:52
+#: templates/archive-masonry.php:65 templates/archive-standard.php:10
+msgid "Previous"
+msgstr "Precedente"
+
+#: templates/archive-grid.php:78 templates/archive-list.php:53
+#: templates/archive-masonry.php:66 templates/archive-standard.php:11
+msgid "Next"
+msgstr "Successivo"
+
+#. Theme Name of the plugin/theme
+msgid "Authentic"
+msgstr "Authentic"
+
+#. Theme URI of the plugin/theme
+msgid "http://codesupply.co/themes/authentic"
+msgstr "http://codesupply.co/themes/authentic"
+
+#. Description of the plugin/theme
+msgid "Wordpress Theme for Blogs & Magazines"
+msgstr "Tema Wordpress per Blog & Magazine."
+
+#. Author of the plugin/theme
+msgid "Code Supply Co."
+msgstr "Code Supply Co."
+
+#. Author URI of the plugin/theme
+msgid "http://codesupply.co"
+msgstr "http://codesupply.co"
