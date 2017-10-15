@@ -19,6 +19,9 @@
         <div class="container">
           <div class="overlay-content">
             <h1><?php the_title(); ?></h1>
+            <?php if (get_field('subtitle')) : ?>
+            <h2><?php the_field('subtitle'); ?></h2>
+            <?php endif; ?>
             <?php if (has_excerpt()) { the_excerpt(); } ?>
           </div>
         </div>
@@ -41,6 +44,9 @@
               <div class="overlay-container">
                 <div class="overlay-content">
                   <h1><?php the_title(); ?></h1>
+                  <?php if (get_field('subtitle')) : ?>
+                  <h2><?php the_field('subtitle'); ?></h2>
+                  <?php endif; ?>
                   <?php if (has_excerpt()) { the_excerpt(); } ?>
                 </div>
               </div>
@@ -50,6 +56,9 @@
           <?php if ($featured_image_type == '' || $featured_image_type == 'none') { ?>
             <div class="page-header page-header-standard">
               <h1><?php the_title(); ?></h1>
+              <?php if (get_field('subtitle')) : ?>
+              <h2><?php the_field('subtitle'); ?></h2>
+              <?php endif; ?>
               <?php if (has_excerpt()) {
                 the_excerpt();
               } ?>
