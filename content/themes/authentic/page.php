@@ -4,31 +4,55 @@
 
   $featured_image_type = _get_field('csco_featured_image_type', get_the_ID(), 'default');
 
+  $youtube_code = get_field('youtube_code');
+
   if ( $featured_image_type == 'default' ) {
     $featured_image_type  = get_theme_mod('authentic_layout_posts_featured_image', 'none');
   }
 
   ?>
 
-  <?php if ($featured_image_type == 'large' || $featured_image_type == 'wide') {
+<?php if( $youtube_code != null) { ?>
 
-    $thumbnail = wp_get_attachment_image_src(get_post_thumbnail_ID(), 'hd'); ?>
-
-    <div class="page-header page-header-<?php echo $featured_image_type; ?><?php if (has_excerpt()) { ?> page-header-standard<?php } ?> page-header-bg overlay parallax" style="background-image: url(<?php echo $thumbnail[0]; ?>)">
-      <div class="overlay-container">
-        <div class="container">
-          <div class="overlay-content">
-            <h1><?php the_title(); ?></h1>
-            <?php if (get_field('subtitle')) : ?>
-            <h2><?php the_field('subtitle'); ?></h2>
-            <?php endif; ?>
-            <?php if (has_excerpt()) { the_excerpt(); } ?>
-          </div>
+  <div class="page-header page-header-wide page-header-bg overlay parallax">
+    <div class="video-background">
+      <div class="video-foreground">
+        <iframe src="https://www.youtube.com/embed/<?php echo $youtube_code; ?>?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="container">
+        <div class="overlay-content">
+          <h1><?php the_title(); ?></h1>
+          <?php if (get_field('subtitle')) : ?>
+          <h2><?php the_field('subtitle'); ?></h2>
+          <?php endif; ?>
+          <?php if (has_excerpt()) { the_excerpt(); } ?>
         </div>
       </div>
     </div>
+  </div>
 
-  <?php } ?>
+<?php } else { ?>
+
+    <?php if ($featured_image_type == 'large' || $featured_image_type == 'wide') {
+
+      $thumbnail = wp_get_attachment_image_src(get_post_thumbnail_ID(), 'hd'); ?>
+
+      <div class="page-header page-header-<?php echo $featured_image_type; ?><?php if (has_excerpt()) { ?> page-header-standard<?php } ?> page-header-bg overlay parallax" style="background-image: url(<?php echo $thumbnail[0]; ?>)">
+        <div class="overlay-container">
+          <div class="container">
+            <div class="overlay-content">
+              <h1><?php the_title(); ?></h1>
+              <?php if (get_field('subtitle')) : ?>
+              <h2><?php the_field('subtitle'); ?></h2>
+              <?php endif; ?>
+              <?php if (has_excerpt()) { the_excerpt(); } ?>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <?php } ?>
+<?php } ?>
 
   <div class="site-content">
     <div class="container">
