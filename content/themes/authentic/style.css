@@ -937,7 +937,7 @@ Text Domain:          authentic
 .navbar-nav li.menu-item {
   position: relative;
   display: inline-block;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
 }
 
 @media (min-width: 768px) {
