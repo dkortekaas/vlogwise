@@ -43,7 +43,7 @@ Text Domain:          authentic
 
 .site-header {
   position: relative;
-  z-index: 2;
+  z-index: 8;
 }
 
 @media (min-width: 1200px) {
@@ -1607,6 +1607,7 @@ img {
   content: '';
   transition: all .2s ease;
   background: #2c2f30;
+  z-index: 4;
 }
 
 .overlay:hover:before {
@@ -1859,6 +1860,7 @@ img {
 
 .page-header-bg {
   position: relative;
+  overflow: hidden;
 }
 
 .page-header-bg .overlay-content {
@@ -1886,6 +1888,7 @@ img {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+    z-index: 5;
   }
 }
 
@@ -4236,4 +4239,26 @@ ul.grid h2.entry-title {
 }
 .copyright-info a {
   color: #A0A0A0 !important;
+}
+
+/* Video Header */
+.video-background {
+  background: #000;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
 }
