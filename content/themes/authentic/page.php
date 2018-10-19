@@ -17,7 +17,7 @@
   <div class="page-header page-header-wide page-header-bg overlay parallax">
     <div class="video-background">
       <div class="video-foreground">
-        <iframe src="https://www.youtube.com/embed/<?php echo $youtube_code; ?>?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/<?php echo $youtube_code; ?>?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&&playlist=<?php echo $youtube_code; ?>&mute=1" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="container">
         <div class="overlay-content">
