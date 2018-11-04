@@ -4,7 +4,7 @@
 
   $featured_image_type = _get_field('csco_featured_image_type', get_the_ID(), 'default');
 
-  $youtube_code = get_field('youtube_code');
+  $video_code = get_field('youtube_code');
 
   if ( $featured_image_type == 'default' ) {
     $featured_image_type  = get_theme_mod('authentic_layout_posts_featured_image', 'none');
@@ -12,12 +12,15 @@
 
   ?>
 
-<?php if( $youtube_code != null) { ?>
+<?php if( $video_code != null) { ?>
 
   <div class="page-header page-header-wide page-header-bg overlay parallax">
     <div class="video-background">
       <div class="video-foreground">
-        <iframe src="https://www.youtube.com/embed/<?php echo $youtube_code; ?>?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&&playlist=<?php echo $youtube_code; ?>&mute=1" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/<?php echo $video_code; ?>?background=1&autoplay=1&loop=1&byline=0&title=0"
+           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+        <!-- <iframe src="https://www.youtube.com/embed/<?php //echo $video_code; ?>?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&&playlist=<?php echo $youtube_code; ?>&mute=1" frameborder="0" allowfullscreen></iframe> -->
       </div>
       <div class="container">
         <div class="overlay-content">
