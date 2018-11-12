@@ -936,7 +936,7 @@ Text Domain:          authentic
 
 .navbar-nav li.menu-item {
   position: relative;
-  display: inline-block;
+  display: block;
   /* margin-right: 1rem; */
 }
 
