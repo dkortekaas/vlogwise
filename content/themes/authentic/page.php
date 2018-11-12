@@ -18,7 +18,7 @@
     <div class="video-background">
       <div class="video-foreground">
         <iframe src="https://player.vimeo.com/video/<?php echo $video_code; ?>?background=1&autoplay=1&loop=1&byline=0&title=0"
-           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay; fullscreen">></iframe>
 
         <!-- <iframe src="https://www.youtube.com/embed/<?php //echo $video_code; ?>?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&&playlist=<?php echo $youtube_code; ?>&mute=1" frameborder="0" allowfullscreen></iframe> -->
       </div>
