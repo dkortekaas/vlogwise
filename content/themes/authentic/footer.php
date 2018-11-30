@@ -1,3 +1,5 @@
+<?php get_template_part('parts/logo-slider'); ?>
+
 <footer class="site-footer">
 
   <?php
