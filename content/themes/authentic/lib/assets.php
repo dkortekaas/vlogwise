@@ -15,17 +15,19 @@ function authentic_assets() {
   if (WP_ENV === 'development') {
     $assets = array(
       'css'       => '/assets/css/style.css',
+      'slick_css' => '/assets/css/slick.css',
       'js'        => '/assets/js/scripts.js',
-      'slick'     => '/dist/js/slick.js',
-      'slider'    => '/dist/js/slider.js',
+      'slick_js'  => '/assets/js/slick.js',
+      'slider'    => '/assets/js/slider.js',
     );
     $version = time();
   } else {
     $assets     = array(
       'css'       => '/style.css',
-      'js'        => '/dist/js/scripts.min.js',
-      'slick'     => '/dist/js/slick.min.js',
+      'slick_css' => '/dist/css/slick.css',
+      'slick_js'  => '/dist/js/slick.min.js',
       'slider'    => '/dist/js/slider.js',
+      'js'        => '/dist/js/scripts.min.js',      
     );
     $version = wp_get_theme()->get('Version');
   }
@@ -35,6 +37,8 @@ function authentic_assets() {
   }
 
   wp_register_script( 'authentic_js', get_template_directory_uri() . $assets['js'], array(), $version, true);
+  wp_register_script( 'slick_js', get_template_directory_uri() . $assets['slick_js'], array(), $version, true);
+  wp_register_script( 'slider_js', get_template_directory_uri() . $assets['slider'], array(), $version, true);
 
   $translation_array = array(
     'next' => esc_html__( 'Next', 'authentic' ),
@@ -45,12 +49,16 @@ function authentic_assets() {
   wp_enqueue_script('jquery');
   wp_enqueue_script('authentic_js');
   wp_enqueue_script('isotope_js');
+  wp_enqueue_script('slick_js');
+  wp_enqueue_script('slider_js');
 
   if (WP_ENV !== 'development') {
     wp_enqueue_style('authentic_vendors', get_template_directory_uri() . '/dist/css/vendors.min.css', false, $version);
   }
 
   wp_enqueue_style('authentic_css', get_template_directory_uri() . $assets['css'], false, $version);
+  wp_enqueue_style('slick_css', get_template_directory_uri() . $assets['slick_css'], false, $version);
+  
 
 }
 add_action('wp_enqueue_scripts', 'authentic_assets');

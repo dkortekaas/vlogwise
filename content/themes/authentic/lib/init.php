@@ -37,6 +37,7 @@ function authentic_setup() {
   add_image_size( 'list', 530, 640, true );
   add_image_size( 'masonry', 530, '', false );
   add_image_size( 'mini', 100, 100, true );
+  add_image_size( 'client_logo', 270, 100, true );
 
 }
 
@@ -181,7 +182,7 @@ add_filter( 'kirki/authentic_theme_mod/dynamic_css', 'authentic_custom_css' );
 
 // Hide ACF field group menu item
 
-add_filter('acf/settings/show_admin', '__return_false');
+//add_filter('acf/settings/show_admin', '__return_false');
 
 // Disable ACF Update Notification
 
