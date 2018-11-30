@@ -14,14 +14,18 @@ function authentic_assets() {
 
   if (WP_ENV === 'development') {
     $assets = array(
-      'css'        => '/assets/css/style.css',
+      'css'       => '/assets/css/style.css',
       'js'        => '/assets/js/scripts.js',
+      'slick'     => '/dist/js/slick.js',
+      'slider'    => '/dist/js/slider.js',
     );
     $version = time();
   } else {
     $assets     = array(
       'css'       => '/style.css',
       'js'        => '/dist/js/scripts.min.js',
+      'slick'     => '/dist/js/slick.min.js',
+      'slider'    => '/dist/js/slider.js',
     );
     $version = wp_get_theme()->get('Version');
   }
